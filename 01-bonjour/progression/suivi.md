@@ -99,7 +99,7 @@
 
 ---
 
-## Session 3 — 2026-10-11 🔵 EN COURS
+## Session 3 — 2026-10-11 ✅ Terminé le 2026-10-12
 
 > **CE QUE TU DOIS FAIRE MAINTENANT** :
 > Ouvre `style.css` → écris 4 blocs CSS → sauvegarde → teste dans le navigateur → montre-moi ton code
@@ -174,7 +174,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Module CSS en cours — exercices 1 à 4 à faire par toi
+**Où on s'arrête** : Module CSS — exercices 1 à 4 terminés et validés (2026-10-12). Prochaine étape : CSS avancé (classes, id, box model)
 
 ---
 
@@ -200,6 +200,11 @@ balise    { propriete: valeur; }
 - Cause : signaux sonores d'accessibilité de VS Code (bip quand la ligne où on tape a une erreur — fréquent en écrivant du HTML, balises pas encore fermées)
 - Désactivé : 21 signaux sonores liés à l'édition (erreurs, avertissements, sauvegarde, reformatage, diff, etc.)
 - Conservé : la cloche du terminal uniquement
+
+**Mise à jour 2026-10-12 — Exercices CSS 1 à 4 validés** :
+- Mathias a écrit les 4 règles lui-même dans `style.css` : `body` fond `#f0f0f0`, `h1` texte `#0033cc`, `li` `padding: 10px`, `p` `font-size: 20px`
+- Syntaxe correcte, valeurs conformes à la palette deutan (`couleurs.md`) — validé par le prof
+- Prochaine session : CSS avancé (classes, id, box model)
 
 ## Prochaines sessions (à venir)
 

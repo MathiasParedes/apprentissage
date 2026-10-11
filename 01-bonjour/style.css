@@ -37,8 +37,14 @@
 
    ============================================ */
 body {
-  background-color: d-bg-gray-light;
+  background-color: #f0f0f0;
 }
 h1 {
-  color: d-txt-blue;
+  color: #0033cc;
+}
+li {
+  padding: 10px;
+}
+p {
+  font-size: 20px;
 }
