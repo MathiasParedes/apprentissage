@@ -183,6 +183,12 @@ balise    { propriete: valeur; }
 - À chaque session, on publie ta progression : `git add -A`, puis `git commit -m "message"`, puis `git push`
 - Ce fichier, `PLAN.md` et tous tes exercices y sont maintenant sauvegardés
 
+**Mise à jour 2026-10-12 — Environnement en français** :
+- VS Code : pack de langue française installé, interface en français au prochain redémarrage
+- git : installé via Homebrew (2.56.0), les messages s'affichent en français dans le terminal
+- GitHub Desktop et macOS : déjà en français (système réglé en fr-FR)
+- Restent en anglais : le site github.com et les messages d'erreur de Python/Rust (aucune traduction disponible)
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé
