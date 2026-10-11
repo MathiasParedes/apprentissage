@@ -189,6 +189,13 @@ balise    { propriete: valeur; }
 - GitHub Desktop et macOS : déjà en français (système réglé en fr-FR)
 - Restent en anglais : le site github.com et les messages d'erreur de Python/Rust (aucune traduction disponible)
 
+**Mise à jour 2026-10-12 — Autopilotage VS Code désactivé** :
+- Cause : Emmet (outil intégré à VS Code) écrivait les blocs CSS tout seul quand on appuyait sur Tab
+- Désactivé : Emmet (Tab + fichiers CSS) et les suggestions fantômes (texte gris pendant la frappe)
+- Consigne : Mathias tape tout le CSS à la main — les snippets ne se déclenchent plus automatiquement
+- Prettier reste actif : il reformate seulement, il n'écrit pas de code
+- `progression/couleurs.md` reste la référence pour choisir les couleurs
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé

@@ -36,3 +36,9 @@
    4. p     → taille du texte    (c-font-size)
 
    ============================================ */
+body {
+  background-color: d-bg-gray-light;
+}
+h1 {
+  color: d-txt-blue;
+}
