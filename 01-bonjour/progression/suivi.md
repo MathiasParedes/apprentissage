@@ -174,7 +174,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Module CSS — exercices 1 à 4 terminés et validés (2026-10-12). Prochaine étape : CSS avancé (classes, id, box model)
+**Où on s'arrête** : Session 4 en cours (2026-10-12) — CSS avancé : sélecteurs par classe et par id. (Exercices 1 à 4 de la session 3 : validés.)
 
 ---
 
@@ -205,6 +205,11 @@ balise    { propriete: valeur; }
 - Mathias a écrit les 4 règles lui-même dans `style.css` : `body` fond `#f0f0f0`, `h1` texte `#0033cc`, `li` `padding: 10px`, `p` `font-size: 20px`
 - Syntaxe correcte, valeurs conformes à la palette deutan (`couleurs.md`) — validé par le prof
 - Prochaine session : CSS avancé (classes, id, box model)
+
+**Mise à jour 2026-10-12 — Session 4 lancée (CSS avancé)** :
+- Thème : sélecteurs par classe (`.ma-classe`) et par id (`#mon-id`)
+- À faire par Mathias : ajouter `class`/`id` dans `index.html`, écrire les règles correspondantes dans `style.css`
+- Box model, bordures, border-radius : session suivante
 
 ## Prochaines sessions (à venir)
 
