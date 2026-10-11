@@ -1,0 +1,38 @@
+/* ============================================
+   Session 3 — CSS : À TOI DE JOUER
+   ============================================
+
+   Palette DEUTAN (fort contraste, pas de vert/jaune) :
+   voir progression/couleurs.md
+
+   Snippets couleurs (tape préfixe + Tab) :
+   - d-txt-blue       → color: #0033cc;
+   - d-txt-orange     → color: #ff6600;
+   - d-txt-black      → color: #000000;
+   - d-bg-white       → background-color: #ffffff;
+   - d-bg-gray-light  → background-color: #f0f0f0;
+   - d-bg-navy        → background-color: #0a1929;
+   - d-pair-bw        → fond blanc + texte noir
+   - d-pair-wb        → fond blanc + texte bleu
+   - d-pair-nw        → fond navy + texte blanc
+
+   Snippets structure :
+   - css-block   → body { ... }
+   - css-class   → .ma-classe { ... }
+   - css-id      → #mon-id { ... }
+
+   Snippets propriétés :
+   - c-font-size  → font-size: 16px;
+   - c-padding    → padding: 10px;
+   - c-margin     → margin: 10px;
+
+   ============================================
+
+   EXERCICES :
+
+   1. body  → couleur de fond    (d-bg-gray-light ou d-bg-white)
+   2. h1    → couleur du texte   (d-txt-blue ou d-txt-orange-dark)
+   3. li    → espacement         (c-padding)
+   4. p     → taille du texte    (c-font-size)
+
+   ============================================ */

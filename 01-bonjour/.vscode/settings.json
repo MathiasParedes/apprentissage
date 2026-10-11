@@ -1,0 +1,40 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.indentation": true,
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background1": "#E06C75",
+        "editorIndentGuide.background2": "#D19A66",
+        "editorIndentGuide.background3": "#E5C07B",
+        "editorIndentGuide.background4": "#98C379",
+        "editorIndentGuide.background5": "#56B6C2",
+        "editorIndentGuide.background6": "#C678DD",
+        "editorIndentGuide.activeBackground1": "#FF9BA1",
+        "editorIndentGuide.activeBackground2": "#F0BE8F",
+        "editorIndentGuide.activeBackground3": "#FFE08A",
+        "editorIndentGuide.activeBackground4": "#B5E08C",
+        "editorIndentGuide.activeBackground5": "#7FD4DE",
+        "editorIndentGuide.activeBackground6": "#DE9BF0"
+    },
+    "rainbowTags.colors": ["#E06C75", "#D19A66", "#E5C07B", "#98C379", "#56B6C2", "#C678DD"],
+    "rainbowTags.hightlightType": "color",
+    "rainbowTags.denylistTags": ["!DOCTYPE", "meta", "link", "script", "base", "style", "area", "br", "col", "embed", "hr", "img", "input", "param", "source", "track", "wbr"],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            { "scope": "entity.other.attribute-name.html", "settings": { "foreground": "#C678DD" } },
+            { "scope": "string.quoted.double.html", "settings": { "foreground": "#98C379" } },
+            { "scope": "string.quoted.single.html", "settings": { "foreground": "#98C379" } }
+        ]
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

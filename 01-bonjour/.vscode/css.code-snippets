@@ -1,0 +1,252 @@
+{
+    "CSS — Bloc de base": {
+        "prefix": "css-block",
+        "body": [
+            "${1:body} {",
+            "\t${2:propriete}: ${3:valeur};",
+            "}"
+        ],
+        "description": "Structure de base d'un bloc CSS"
+    },
+
+    "CSS — Sélecteur par classe": {
+        "prefix": "css-class",
+        "body": [
+            ".${1:ma-classe} {",
+            "\t${2:propriete}: ${3:valeur};",
+            "}"
+        ],
+        "description": "Sélecteur par classe (.nom)"
+    },
+
+    "CSS — Sélecteur par id": {
+        "prefix": "css-id",
+        "body": [
+            "#${1:mon-id} {",
+            "\t${2:propriete}: ${3:valeur};",
+            "}"
+        ],
+        "description": "Sélecteur par id (#nom)"
+    },
+
+    "Couleur — Fond bleu": {
+        "prefix": "c-bg-blue",
+        "body": "background-color: #3498db;",
+        "description": "Fond bleu (sûr protan)"
+    },
+    "Couleur — Fond bleu clair": {
+        "prefix": "c-bg-blue-light",
+        "body": "background-color: #ecf0f1;",
+        "description": "Fond bleu très clair / gris bleuté"
+    },
+    "Couleur — Fond orange": {
+        "prefix": "c-bg-orange",
+        "body": "background-color: #e67e22;",
+        "description": "Fond orange (sûr protan)"
+    },
+    "Couleur — Fond jaune": {
+        "prefix": "c-bg-yellow",
+        "body": "background-color: #f1c40f;",
+        "description": "Fond jaune (sûr protan)"
+    },
+    "Couleur — Fond violet": {
+        "prefix": "c-bg-purple",
+        "body": "background-color: #9b59b6;",
+        "description": "Fond violet (sûr protan)"
+    },
+    "Couleur — Fond turquoise": {
+        "prefix": "c-bg-teal",
+        "body": "background-color: #1abc9c;",
+        "description": "Fond turquoise (sûr protan)"
+    },
+    "Couleur — Fond sombre": {
+        "prefix": "c-bg-dark",
+        "body": "background-color: #2c3e50;",
+        "description": "Fond bleu-gris foncé (sûr protan)"
+    },
+
+    "Couleur — Texte bleu": {
+        "prefix": "c-txt-blue",
+        "body": "color: #2980b9;",
+        "description": "Texte bleu (sûr protan)"
+    },
+    "Couleur — Texte orange": {
+        "prefix": "c-txt-orange",
+        "body": "color: #d35400;",
+        "description": "Texte orange foncé (sûr protan)"
+    },
+    "Couleur — Texte sombre": {
+        "prefix": "c-txt-dark",
+        "body": "color: #2c3e50;",
+        "description": "Texte bleu-gris foncé (sûr protan)"
+    },
+    "Couleur — Texte gris": {
+        "prefix": "c-txt-gray",
+        "body": "color: #7f8c8d;",
+        "description": "Texte gris moyen (sûr protan)"
+    },
+
+    "Paire — Clair sur sombre": {
+        "prefix": "c-pair-light-dark",
+        "body": [
+            "background-color: #2c3e50;",
+            "color: #ecf0f1;"
+        ],
+        "description": "Fond sombre + texte clair (bon contraste)"
+    },
+    "Paire — Sombre sur clair": {
+        "prefix": "c-pair-dark-light",
+        "body": [
+            "background-color: #ecf0f1;",
+            "color: #2c3e50;"
+        ],
+        "description": "Fond clair + texte sombre (bon contraste)"
+    },
+    "Paire — Orange sur blanc": {
+        "prefix": "c-pair-orange",
+        "body": [
+            "background-color: #ffffff;",
+            "color: #d35400;"
+        ],
+        "description": "Fond blanc + texte orange (sûr protan)"
+    },
+    "Paire — Bleu sur blanc": {
+        "prefix": "c-pair-blue",
+        "body": [
+            "background-color: #ffffff;",
+            "color: #2980b9;"
+        ],
+        "description": "Fond blanc + texte bleu (sûr protan)"
+    },
+
+    "Propriété — Taille de police": {
+        "prefix": "c-font-size",
+        "body": "font-size: ${1:16}px;",
+        "description": "Taille de police en px"
+    },
+    "Propriété — Police": {
+        "prefix": "c-font-family",
+        "body": "font-family: ${1:Arial}, sans-serif;",
+        "description": "Famille de police"
+    },
+    "Propriété — Marge extérieure": {
+        "prefix": "c-margin",
+        "body": "margin: ${1:10}px;",
+        "description": "Marge extérieure"
+    },
+    "Propriété — Marge intérieure": {
+        "prefix": "c-padding",
+        "body": "padding: ${1:10}px;",
+        "description": "Marge intérieure"
+    },
+    "Propriété — Bordure arrondie": {
+        "prefix": "c-radius",
+        "body": "border-radius: ${1:8}px;",
+        "description": "Coins arrondis"
+    },
+    "Propriété — Largeur max": {
+        "prefix": "c-max-width",
+        "body": "max-width: ${1:600}px;",
+        "description": "Largeur maximale"
+    },
+
+    "Deutan — Texte bleu vif": {
+        "prefix": "d-txt-blue",
+        "body": "color: #0033cc;",
+        "description": "Texte bleu vif (fort contraste)"
+    },
+    "Deutan — Texte bleu foncé": {
+        "prefix": "d-txt-blue-dark",
+        "body": "color: #001a66;",
+        "description": "Texte bleu très foncé"
+    },
+    "Deutan — Texte orange vif": {
+        "prefix": "d-txt-orange",
+        "body": "color: #ff6600;",
+        "description": "Texte orange vif (fort contraste)"
+    },
+    "Deutan — Texte orange foncé": {
+        "prefix": "d-txt-orange-dark",
+        "body": "color: #cc3300;",
+        "description": "Texte orange foncé"
+    },
+    "Deutan — Texte violet": {
+        "prefix": "d-txt-purple",
+        "body": "color: #6600cc;",
+        "description": "Texte violet (distinct du bleu)"
+    },
+    "Deutan — Texte noir": {
+        "prefix": "d-txt-black",
+        "body": "color: #000000;",
+        "description": "Texte noir (contraste max)"
+    },
+    "Deutan — Texte gris foncé": {
+        "prefix": "d-txt-gray-dark",
+        "body": "color: #333333;",
+        "description": "Texte gris foncé (lisible)"
+    },
+    "Deutan — Fond blanc": {
+        "prefix": "d-bg-white",
+        "body": "background-color: #ffffff;",
+        "description": "Fond blanc pur"
+    },
+    "Deutan — Fond gris clair": {
+        "prefix": "d-bg-gray-light",
+        "body": "background-color: #f0f0f0;",
+        "description": "Fond gris très clair (distinct du blanc)"
+    },
+    "Deutan — Fond navy": {
+        "prefix": "d-bg-navy",
+        "body": "background-color: #0a1929;",
+        "description": "Fond bleu très foncé"
+    },
+
+    "Deutan — Paire Blanc/Noir": {
+        "prefix": "d-pair-bw",
+        "body": [
+            "background-color: #ffffff;",
+            "color: #000000;"
+        ],
+        "description": "Blanc + noir (contraste 21:1, max)"
+    },
+    "Deutan — Paire Blanc/Bleu": {
+        "prefix": "d-pair-wb",
+        "body": [
+            "background-color: #ffffff;",
+            "color: #0033cc;"
+        ],
+        "description": "Blanc + bleu vif (contraste 12:1)"
+    },
+    "Deutan — Paire Blanc/Orange": {
+        "prefix": "d-pair-wo",
+        "body": [
+            "background-color: #ffffff;",
+            "color: #ff6600;"
+        ],
+        "description": "Blanc + orange vif (contraste 4.5:1)"
+    },
+    "Deutan — Paire Navy/Blanc": {
+        "prefix": "d-pair-nw",
+        "body": [
+            "background-color: #0a1929;",
+            "color: #ffffff;"
+        ],
+        "description": "Fond navy + texte blanc (contraste 18:1)"
+    },
+    "Deutan — Paire Gris/Gris foncé": {
+        "prefix": "d-pair-gg",
+        "body": [
+            "background-color: #f0f0f0;",
+            "color: #333333;"
+        ],
+        "description": "Gris clair + gris foncé (contraste 12:1)"
+    },
+    "Deutan — Paire Bleu/Blanc": {
+        "prefix": "d-pair-bw2",
+        "body": [
+            "background-color: #0033cc;",
+            "color: #ffffff;"
+        ],
+        "description": "Bleu vif + texte blanc (contraste 12:1)"
+    }
+}
