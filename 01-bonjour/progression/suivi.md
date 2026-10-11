@@ -196,6 +196,11 @@ balise    { propriete: valeur; }
 - Prettier reste actif : il reformate seulement, il n'écrit pas de code
 - `progression/couleurs.md` reste la référence pour choisir les couleurs
 
+**Mise à jour 2026-10-12 — Bips sonores désactivés** :
+- Cause : signaux sonores d'accessibilité de VS Code (bip quand la ligne où on tape a une erreur — fréquent en écrivant du HTML, balises pas encore fermées)
+- Désactivé : 21 signaux sonores liés à l'édition (erreurs, avertissements, sauvegarde, reformatage, diff, etc.)
+- Conservé : la cloche du terminal uniquement
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé
