@@ -308,6 +308,12 @@ balise    { propriete: valeur; }
 - Exercice 4 (boucle `for` sur la liste des 5 langages de `index.html`) : **à faire** — consigne donnée en mode « direction » (forme `for ... in ...:`, `print` indenté 4 espaces, liste entre crochets, piège : `in` et pas `of`)
 - Suite : Mathias écrit l'exercice 4, sauvegarde (`Cmd + S`), teste dans le terminal, montre son `bonjour.py` → validation par le prof
 
+**Mise à jour 2026-10-12 — Session 7 terminée et validée (Python débutant) — 4/4 exercices** :
+- Exercice 4 (boucle `for`) : validé — Mathias a corrigé seul les 2 erreurs diagnostiquées : quotes autour de `langage` dans le print (affichait le texte au lieu de la variable) et boucle indentée dans le bloc `else` (elle ne tournait qu'avec compteur = 0)
+- `bonjour.py` final : print, 3 variables + print, if/else testé avec 3 puis 0, boucle for affichant les 5 langages dans l'ordre — sortie conforme
+- Style noté : `print` sous le `for` indenté de 8 espaces (valide, la convention est 4) ; `in['html'` sans espace après `in` (valide, habitude : espace)
+- Session 7 terminée. Prochaine session : session 8 (Python, suite) — fonctions (`def`), listes, dictionnaires, `input` utilisateur, premier script
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé (terminée le 2026-10-12)
