@@ -274,6 +274,12 @@ balise    { propriete: valeur; }
 - Règle enseignée : erreur de syntaxe = le fichier ne se charge pas du tout ; erreur d'exécution (« ... is not a function ») = le fichier tourne mais plante à la ligne concernée
 - Suite : Mathias applique les changements (ligne 10 + ajout `console.log` en haut), teste, montre son code → validation
 
+**Mise à jour 2026-10-12 — Environnement : navigateur** :
+- Un seul navigateur installé sur le Mac : **Safari** (pas de Chrome ni Firefox)
+- La console de Safari (Web Inspector) suit la langue de macOS — macOS est déjà en fr-FR, donc la console est **déjà en français**, y compris les messages d'erreur JS : aucun réglage à changer
+- Ouvrir la console dans Safari : activer d'abord le menu Développement (Safari → Réglages → Avancé → « Afficher le menu Développement dans la barre de menus »), puis Cmd+Alt+I (Option = Alt sur le clavier Logitech) ou Développement → « Afficher la console JavaScript » ; alternative : clic droit → « Inspecter l'élément » → onglet Console
+- `script.js` sur disque toujours en v2 : corrections ligne 10 (`addEventListener`, `function ()`) et `console.log` pas encore appliquées
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé (terminée le 2026-10-12)
