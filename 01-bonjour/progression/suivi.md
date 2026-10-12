@@ -22,7 +22,7 @@
 |--------|---------|--------|----------|
 | 1 | HTML | ✅ Terminé | Structure de base, titres, paragraphes, listes |
 | 2 | CSS | ✅ Terminé | Mise en forme : couleurs, tailles, espacements, sélecteurs, box model, bordures |
-| 3 | JavaScript | 🔵 En cours | Interactivité : boutons, événements, DOM |
+| 3 | JavaScript | ✅ Terminé | Interactivité : boutons, événements, DOM |
 | 4 | Python | ⬜ À venir | Bases du langage, scripts, automatisation |
 | 5 | Rust | ⬜ À venir | Bases du langage, compilation, ownership |
 
@@ -176,7 +176,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Session 6 en cours (2026-10-12) — JavaScript débutant. `script.js` v3 sur disque : `console.log` ajouté (exercice 1 fait), `function ('compteur')` → `function ()` corrigé, `getElementById` OK. Reste **1 seule erreur** : `addEventlistener` → `addEventListener` (casse, L majuscule). Dernière ligne droite avant validation.
+**Où on s'arrête** : Session 6 terminée et validée (2026-10-12) — JavaScript débutant. Module JS terminé : première page interactive (console.log, DOM, compteur cliquable). Prochaine session : Python (module 4).
 
 ---
 
@@ -280,6 +280,14 @@ balise    { propriete: valeur; }
 - Ouvrir la console dans Safari : activer d'abord le menu Développement (Safari → Réglages → Avancé → « Afficher le menu Développement dans la barre de menus »), puis Cmd+Alt+I (Option = Alt sur le clavier Logitech) ou Développement → « Afficher la console JavaScript » ; alternative : clic droit → « Inspecter l'élément » → onglet Console
 - `script.js` sur disque toujours en v2 : corrections ligne 10 (`addEventListener`, `function ()`) et `console.log` pas encore appliquées
 
+**Mise à jour 2026-10-12 — Session 6 terminée et validée (JavaScript débutant)** :
+- Mathias a corrigé seul les 2 dernières erreurs (`function ('compteur')` → `function ()`, `addEventlistener` → `addEventListener`) et ajouté `console.log` — **4/4 exercices validés** par le prof
+- `script.js` final (12 lignes) : `console.log`, `querySelector` + `textContent` (h1 → « Salut ! »), `style.color` (.intro → `#ff6600`), compteur cliquable (bouton + `p#compteur` + `addEventListener`)
+- `index.html` final : `<script>` avant `</body>`, `<button id="bouton-compteur">` + `<p id="compteur">0</p>` ajoutés — ids conformes au JS
+- Bugs attrapés et corrigés par Mathias au fil de la session : script dans le `<head>` (déplacé avant `</body>`), 3 fautes de casse (`getElementbyId`, `getElementbyID`, `addEventlistener`), paramètre invalide `function ('compteur')`
+- Leçons retenues : JS sensible à la casse (camelCase) ; erreur de syntaxe = fichier bloqué entier, erreur d'exécution = plante à la ligne ; lire l'erreur rouge dans la console (Safari, macOS fr-FR → console en français) ; Prettier réglé en simple quote
+- Module 3 (JavaScript) terminé. Prochaine session : Python (module 4) — installation, syntaxe de base, variables, conditions, boucles, premier script
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé (terminée le 2026-10-12)
@@ -291,7 +299,7 @@ balise    { propriete: valeur; }
 - Bordures, border-radius
 - Largeur, marges, box-sizing
 
-### Session 6 — JavaScript débutant (en cours)
+### Session 6 — JavaScript débutant (terminée le 2026-10-12)
 - Variables, types, fonctions
 - Manipulation du DOM
 - Événements (click, input)
