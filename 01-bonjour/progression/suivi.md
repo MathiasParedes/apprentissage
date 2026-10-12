@@ -22,7 +22,7 @@
 |--------|---------|--------|----------|
 | 1 | HTML | ✅ Terminé | Structure de base, titres, paragraphes, listes |
 | 2 | CSS | ✅ Terminé | Mise en forme : couleurs, tailles, espacements, sélecteurs, box model, bordures |
-| 3 | JavaScript | ⬜ À venir | Interactivité : boutons, événements, DOM |
+| 3 | JavaScript | 🔵 En cours | Interactivité : boutons, événements, DOM |
 | 4 | Python | ⬜ À venir | Bases du langage, scripts, automatisation |
 | 5 | Rust | ⬜ À venir | Bases du langage, compilation, ownership |
 
@@ -176,7 +176,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Session 5 terminée et validée (2026-10-12) — box model, bordures, border-radius. Module CSS terminé : 7 règles dans `style.css`, toutes écrites par Mathias. Prochaine session : JavaScript (module 3).
+**Où on s'arrête** : Session 6 lancée (2026-10-12) — JavaScript débutant. Mathias crée `script.js`, le branche dans `index.html` (avant `</body>`), écrit console.log + DOM + un compteur cliquable. Il montre son code pour validation.
 
 ---
 
@@ -245,6 +245,18 @@ balise    { propriete: valeur; }
 - Question de Mathias sur les nouveaux snippets (`c-border`, `c-border-orange`, `c-border-bottom`, `c-box-sizing`) : concept réexpliqué (raccourci VS Code : préfixe + Tab, rien d'automatique)
 - Module 2 (CSS) terminé. Prochaine session : JavaScript (module 3) — variables, DOM, événements, premier bouton interactif
 
+**Mise à jour 2026-10-12 — Session 6 lancée (JavaScript débutant)** :
+- Thème : JavaScript dans le navigateur — variables (`let`/`const`), `console.log`, DOM (`querySelector`, `getElementById`), `textContent`, `style`, événements (`click`)
+- Mathias a confirmé avoir vu le rendu CSS dans le navigateur (carte, pilules, favori encadré) — satisfait
+- Config prof : 9 nouveaux snippets JS créés (`.vscode/javascript.code-snippets`, JSON validé) — `js-const`, `js-let`, `js-log`, `js-fonction`, `js-getid`, `js-query`, `js-click`, `js-texte`, `js-couleur`
+- À faire par Mathias (le prof ne touche ni à `script.js` ni à `index.html`) :
+  1. Créer `script.js` (vide) et ajouter `<script src="script.js"></script>` avant `</body>` dans `index.html`
+  2. Exercice 1 : `console.log(...)` + vérifier le message dans la console (F12, onglet Console)
+  3. Exercice 2 : changer le texte du `h1` (« Salut ! ») via `querySelector` + `textContent`
+  4. Exercice 3 : passer `.intro` en orange `#ff6600` via `style.color`
+  5. Exercice 4 : compteur cliquable — ajouter `<button id="bouton-compteur">` + `<p id="compteur">` dans le HTML, `addEventListener('click', ...)` dans le JS, `let compte = 0`
+- Suite : Mathias montre `script.js` et les lignes HTML ajoutées → validation. Puis sessions 7-8 : Python
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé (terminée le 2026-10-12)
@@ -256,7 +268,7 @@ balise    { propriete: valeur; }
 - Bordures, border-radius
 - Largeur, marges, box-sizing
 
-### Session 6 — JavaScript débutant
+### Session 6 — JavaScript débutant (en cours)
 - Variables, types, fonctions
 - Manipulation du DOM
 - Événements (click, input)

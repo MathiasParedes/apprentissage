@@ -1,0 +1,55 @@
+{
+    "JS — Constante": {
+        "prefix": "js-const",
+        "body": "const ${1:nom} = ${2:valeur};",
+        "description": "Déclare une constante (ne change pas)"
+    },
+    "JS — Variable": {
+        "prefix": "js-let",
+        "body": "let ${1:nom} = ${2:valeur};",
+        "description": "Déclare une variable (peut changer)"
+    },
+    "JS — Message console": {
+        "prefix": "js-log",
+        "body": "console.log('${1:message}');",
+        "description": "Affiche un message dans la console (F12)"
+    },
+    "JS — Fonction": {
+        "prefix": "js-fonction",
+        "body": [
+            "function ${1:maFonction}() {",
+            "\t${2:// code}",
+            "}"
+        ],
+        "description": "Déclare une fonction"
+    },
+    "JS — Élément par id": {
+        "prefix": "js-getid",
+        "body": "const ${1:element} = document.getElementById('${2:mon-id}');",
+        "description": "Attrape un élément par son id"
+    },
+    "JS — Élément par sélecteur": {
+        "prefix": "js-query",
+        "body": "const ${1:element} = document.querySelector('${2:selecteur}');",
+        "description": "Attrape un élément (balise, .classe ou #id)"
+    },
+    "JS — Événement clic": {
+        "prefix": "js-click",
+        "body": [
+            "${1:element}.addEventListener('click', function () {",
+            "\t${2:// code au clic}",
+            "});"
+        ],
+        "description": "Réagit au clic sur un élément"
+    },
+    "JS — Changer le texte": {
+        "prefix": "js-texte",
+        "body": "${1:element}.textContent = '${2:nouveau texte}';",
+        "description": "Remplace le texte d'un élément"
+    },
+    "JS — Changer la couleur": {
+        "prefix": "js-couleur",
+        "body": "${1:element}.style.color = '${2:#0033cc}';",
+        "description": "Change la couleur du texte (deutan-safe par défaut)"
+    }
+}
