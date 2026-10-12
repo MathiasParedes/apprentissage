@@ -176,7 +176,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Session 6 en cours (2026-10-12) — JavaScript débutant. `script.js` v2 reçue : `getElementById` corrigés, simples quotes OK ; reste 2 problèmes sur la ligne du clic — `addEventlistener` (casse) et `function ('compteur')` (paramètre invalide = erreur de syntaxe qui bloque tout le fichier) ; `console.log` (exercice 1) toujours manquant. Mathias corrige, teste, montre son code.
+**Où on s'arrête** : Session 6 en cours (2026-10-12) — JavaScript débutant. `script.js` v3 sur disque : `console.log` ajouté (exercice 1 fait), `function ('compteur')` → `function ()` corrigé, `getElementById` OK. Reste **1 seule erreur** : `addEventlistener` → `addEventListener` (casse, L majuscule). Dernière ligne droite avant validation.
 
 ---
 
