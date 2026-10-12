@@ -174,7 +174,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Session 4 en cours (2026-10-12) — CSS avancé : sélecteurs par classe et par id. (Exercices 1 à 4 de la session 3 : validés.)
+**Où on s'arrête** : Session 4 terminée et validée (2026-10-12) — sélecteurs par classe et par id. Prochaine étape : CSS avancé suite (box model, bordures, border-radius), puis JavaScript.
 
 ---
 
@@ -210,6 +210,12 @@ balise    { propriete: valeur; }
 - Thème : sélecteurs par classe (`.ma-classe`) et par id (`#mon-id`)
 - À faire par Mathias : ajouter `class`/`id` dans `index.html`, écrire les règles correspondantes dans `style.css`
 - Box model, bordures, border-radius : session suivante
+
+**Mise à jour 2026-10-12 — Session 4 terminée et validée (classes et id)** :
+- Mathias a ajouté `class="intro"`, `id="liste-langages"` et `class="favori"` dans `index.html`, et écrit les 3 règles correspondantes dans `style.css`
+- Bug attrapé puis corrigé par Mathias : l'id ne correspondait pas entre HTML et CSS — règle apprise : un sélecteur `#id` doit correspondre exactement à l'attribut `id`
+- Le commentaire d'aide en haut de `style.css` a été supprimé par Mathias : le fichier ne contient plus que son code
+- Prochaine session : CSS avancé suite (box model, bordures, border-radius), puis JavaScript
 
 ## Prochaines sessions (à venir)
 
