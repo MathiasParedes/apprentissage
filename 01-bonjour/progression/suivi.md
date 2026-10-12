@@ -174,7 +174,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Session 4 terminée et validée (2026-10-12) — sélecteurs par classe et par id. Prochaine étape : CSS avancé suite (box model, bordures, border-radius), puis JavaScript.
+**Où on s'arrête** : Session 4 terminée et validée (2026-10-12) — sélecteurs par classe et par id. PAUSE soirée du 2026-10-12. Reprise demain : session 5 — box model, bordures, border-radius, puis JavaScript.
 
 ---
 
@@ -220,6 +220,11 @@ balise    { propriete: valeur; }
 **Mise à jour 2026-10-12 — Commentaire d'aide restauré** :
 - Mathias a demandé la restauration du commentaire pense-bête en haut de `style.css` (palette + snippets) — récupéré dans l'historique git
 - Ce n'est pas une mauvaise pratique : les commentaires CSS sont ignorés par le navigateur, garder des notes dans son fichier est utile en apprentissage
+
+**Mise à jour 2026-10-12 — Fin de session (pause)** :
+- Sessions 3 et 4 validées : 7 règles CSS écrites par Mathias (sélecteurs balise, classe, id)
+- Tout est publié sur GitHub
+- Demain : « on continue » → session 5 : box model, bordures, border-radius, puis JavaScript
 
 ## Prochaines sessions (à venir)
 
