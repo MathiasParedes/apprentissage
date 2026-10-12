@@ -12,22 +12,13 @@ Il grandit en même temps que moi. Chaque langage que j'apprends le rend plus ca
 
 ## Progression
 
-- [x] Module 1 — HTML : bases (→ `01-bonjour/`)
-- [ ] Module 2 — HTML : listes, liens, images (en cours)
-- [ ] Module 3 — HTML : la page « cours » de mon agent
-- [ ] Module 4 — CSS : couleurs, police, marges
-- [ ] Module 5 — CSS : disposition (flexbox)
-- [ ] Module 6 — CSS : l'agent a une tête
-- [ ] Module 7 — JavaScript : variables et fonctions
-- [ ] Module 8 — JavaScript : réagir aux clics
-- [ ] Module 9 — JavaScript : le quiz de l'agent (projet !)
-- [ ] Module 10 — JavaScript : l'agent compte mes points
-- [ ] Module 11 — Python : installer, premier script
-- [ ] Module 12 — Python : lire et corriger des exercices
-- [ ] Module 13 — Python : l'agent en ligne de commande (projet !)
-- [ ] Module 14 — Python : l'agent parle de mes progrès
-- [ ] Module 15 — Rust : installer, premier programme
-- [ ] Module 16 — Rust : réécrire le quiz (projet final !)
+> Trame révisée le 2026-10-12 — la trame réellement suivie est HTML → CSS → JavaScript → Python → Rust. Le détail session par session est dans `01-bonjour/progression/suivi.md`.
+
+- [x] Module 1 — HTML : bases (→ `01-bonjour/index.html`)
+- [x] Module 2 — CSS : couleurs, sélecteurs (balise, classe, id), box model, bordures (→ `01-bonjour/style.css`)
+- [x] Module 3 — JavaScript : variables, DOM, événements, bouton compteur (→ `01-bonjour/script.js`)
+- [ ] Module 4 — Python : bases (en cours → `03-python/`) — session 7 terminée : 4/4 exercices validés dans `bonjour.py` ; session 8 à venir : fonctions (`def`), listes, dictionnaires, `input`, premier script
+- [ ] Module 5 — Rust : installer, premier programme
 
 ## Règles
 

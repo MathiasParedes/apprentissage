@@ -301,7 +301,7 @@ balise    { propriete: valeur; }
 - Suite : Mathias montre `bonjour.py` → validation. Session 8 : fonctions, listes, dictionnaires, premier script
 
 **Mise à jour 2026-10-12 — Session 7 en cours (Python débutant) — exercices 1 à 3 validés** :
-- Fichier : `03-python/.vscode/bonjour.py` (resté dans `.vscode/` — commande de lancement depuis `03-python/` : `python3 .vscode/bonjour.py`)
+- Fichier : `03-python/bonjour.py` (déplacé depuis `.vscode/` le 2026-10-12 — commande de lancement depuis `03-python/` : `python3 bonjour.py`)
 - Exercice 1 (`print('Bonjour depuis Python !')`) : validé — quote fermante manquante ajoutée à la demande de Mathias (erreur de départ : SyntaxError « unterminated string literal »)
 - Exercice 2 (variables `ville`, `annee`, `actif` + 3 print) : validé — sortie correcte ; noté : Python affiche `True` avec une majuscule (contre `true` en JS)
 - Exercice 3 (`if compteur > 0:` / `else:`) : validé — les deux branches testées (compteur = 3 → « le compteur est positif », compteur = 0 → branche `else`)
@@ -313,6 +313,11 @@ balise    { propriete: valeur; }
 - `bonjour.py` final : print, 3 variables + print, if/else testé avec 3 puis 0, boucle for affichant les 5 langages dans l'ordre — sortie conforme
 - Style noté : `print` sous le `for` indenté de 8 espaces (valide, la convention est 4) ; `in['html'` sans espace après `in` (valide, habitude : espace)
 - Session 7 terminée. Prochaine session : session 8 (Python, suite) — fonctions (`def`), listes, dictionnaires, `input` utilisateur, premier script
+
+**Mise à jour 2026-10-12 — Rangement + PLAN.md à jour** :
+- `bonjour.py` rangé : déplacé de `03-python/.vscode/` vers la racine de `03-python/` à la demande de Mathias (`.vscode/` est réservé à la configuration) — nouvelle commande : `python3 bonjour.py` ; `python.code-snippets` reste dans `.vscode/`
+- `PLAN.md` mis à jour avec la vraie progression : HTML ✅, CSS ✅, JavaScript ✅, Python 🔵 (session 7 terminée, 4/4 exercices validés), Rust ⬜ à venir — l'ancienne liste de 16 modules est conservée dans l'historique git
+- Dossier `02-listes-liens-images/` toujours vide — à décider plus tard : le remplir (liens/images) ou le supprimer
 
 ## Prochaines sessions (à venir)
 
