@@ -176,7 +176,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Session 4 terminée et validée (2026-10-12) — sélecteurs par classe et par id. PAUSE soirée du 2026-10-12. Reprise demain : session 5 — box model, bordures, border-radius, puis JavaScript.
+**Où on s'arrête** : Session 5 lancée (2026-10-12, reprise en soirée) — box model, bordures, border-radius. 4 exercices donnés à Mathias : il écrit le CSS lui-même dans ses blocs existants, sauvegarde, teste dans le navigateur, montre son code pour validation.
 
 ---
 
@@ -228,27 +228,41 @@ balise    { propriete: valeur; }
 - Tout est publié sur GitHub
 - Demain : « on continue » → session 5 : box model, bordures, border-radius, puis JavaScript
 
+**Mise à jour 2026-10-12 — Session 5 lancée (box model, bordures, border-radius)** :
+- Thème : modèle de boîte (contenu, padding, bordure, marge), `border`, `border-radius`, `max-width`, `box-sizing: border-box`
+- Config prof : 4 nouveaux snippets — `c-border` (bordure bleue), `c-border-orange` (bordure orange), `c-border-bottom` (ligne sous un élément), `c-box-sizing`
+- À faire par Mathias dans `style.css` (enrichir ses blocs existants, pas en créer de nouveaux) :
+  1. `#liste-langages` : `padding: 20px`, `max-width: 400px`, `border-radius: 12px`, `box-sizing: border-box` — la liste devient une carte
+  2. `li` : `border: 2px solid #0033cc`, `border-radius: 8px`, `margin-bottom: 10px` — des pilules
+  3. `h1` : `border-bottom: 3px solid #0033cc`, `padding-bottom: 10px`, `max-width: 400px` — bandeau sous le titre
+  4. `.favori` : `border: 2px solid #ff6600`, `background-color: #ffffff` — le favori encadré
+- Couleurs conformes à la palette deutan (`progression/couleurs.md`)
+- Suite : Mathias écrit le code, sauvegarde, teste dans le navigateur, montre son CSS au prof pour validation. Prochaine session : JavaScript
+
 ## Prochaines sessions (à venir)
 
-### Session 4 — CSS avancé
+### Session 4 — CSS avancé (terminée le 2026-10-12)
 - Sélecteurs par classe (`.ma-classe`)
 - Sélecteurs par id (`#mon-id`)
-- Bordures, ombres, border-radius
-- Modèle de boîte (box model)
 
-### Session 5 — JavaScript débutant
+### Session 5 — CSS avancé, suite (en cours)
+- Modèle de boîte (box model)
+- Bordures, border-radius
+- Largeur, marges, box-sizing
+
+### Session 6 — JavaScript débutant
 - Variables, types, fonctions
 - Manipulation du DOM
 - Événements (click, input)
 - Premier projet : bouton interactif
 
-### Session 6-7 — Python
+### Session 7-8 — Python
 - Installation, syntaxe de base
 - Variables, conditions, boucles
 - Fonctions, listes, dictionnaires
 - Premier script
 
-### Session 8-9 — Rust
+### Session 9-10 — Rust
 - Installation (rustup, cargo)
 - Syntaxe de base, ownership
 - Variables, fonctions, conditions

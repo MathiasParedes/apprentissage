@@ -149,6 +149,26 @@
         "body": "max-width: ${1:600}px;",
         "description": "Largeur maximale"
     },
+    "Propriété — Bordure bleue": {
+        "prefix": "c-border",
+        "body": "border: ${1:2}px solid #0033cc;",
+        "description": "Bordure bleue (deutan-safe)"
+    },
+    "Propriété — Bordure orange": {
+        "prefix": "c-border-orange",
+        "body": "border: ${1:2}px solid #ff6600;",
+        "description": "Bordure orange (deutan-safe)"
+    },
+    "Propriété — Bordure basse": {
+        "prefix": "c-border-bottom",
+        "body": "border-bottom: ${1:3}px solid #0033cc;",
+        "description": "Ligne sous un élément (deutan-safe)"
+    },
+    "Propriété — Box sizing": {
+        "prefix": "c-box-sizing",
+        "body": "box-sizing: border-box;",
+        "description": "La largeur inclut padding + bordure"
+    },
 
     "Deutan — Texte bleu vif": {
         "prefix": "d-txt-blue",
