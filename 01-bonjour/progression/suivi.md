@@ -7,6 +7,7 @@
 - Je ne modifie jamais tes fichiers de code (`index.html`, `style.css`, `script.js`, etc.)
 - À chaque session, je mets à jour ce fichier pour noter où on s'arrête
 - Tu reprends exactement là la prochaine fois
+- **Style des consignes (préférence Mathias, enregistrée le 2026-10-12)** : déroulement explicite — étapes, commandes exactes, résultats attendus — mais **jamais le code fini** : des directions et des squelettes à compléter, Mathias écrit tout lui-même
 
 ## Comment me retrouver
 - Ouvre VS Code → clique sur l'icône **Mistral Vibe** dans la barre latérale (panneau de chat à gauche)
@@ -298,6 +299,14 @@ balise    { propriete: valeur; }
   4. `for langage in ['html', 'css', 'javascript', 'python', 'rust']:` + print — même liste que la page web
 - Note : le dossier `02-listes-liens-images/` (module 2 du PLAN.md) est vide — la trame suivie est HTML→CSS→JS→Python→Rust ; à décider plus tard : le remplir (liens/images) ou le supprimer
 - Suite : Mathias montre `bonjour.py` → validation. Session 8 : fonctions, listes, dictionnaires, premier script
+
+**Mise à jour 2026-10-12 — Session 7 en cours (Python débutant) — exercices 1 à 3 validés** :
+- Fichier : `03-python/.vscode/bonjour.py` (resté dans `.vscode/` — commande de lancement depuis `03-python/` : `python3 .vscode/bonjour.py`)
+- Exercice 1 (`print('Bonjour depuis Python !')`) : validé — quote fermante manquante ajoutée à la demande de Mathias (erreur de départ : SyntaxError « unterminated string literal »)
+- Exercice 2 (variables `ville`, `annee`, `actif` + 3 print) : validé — sortie correcte ; noté : Python affiche `True` avec une majuscule (contre `true` en JS)
+- Exercice 3 (`if compteur > 0:` / `else:`) : validé — les deux branches testées (compteur = 3 → « le compteur est positif », compteur = 0 → branche `else`)
+- Exercice 4 (boucle `for` sur la liste des 5 langages de `index.html`) : **à faire** — consigne donnée en mode « direction » (forme `for ... in ...:`, `print` indenté 4 espaces, liste entre crochets, piège : `in` et pas `of`)
+- Suite : Mathias écrit l'exercice 4, sauvegarde (`Cmd + S`), teste dans le terminal, montre son `bonjour.py` → validation par le prof
 
 ## Prochaines sessions (à venir)
 
