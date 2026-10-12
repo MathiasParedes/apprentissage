@@ -21,7 +21,7 @@
 | Module | Langage | Statut | Objectif |
 |--------|---------|--------|----------|
 | 1 | HTML | ✅ Terminé | Structure de base, titres, paragraphes, listes |
-| 2 | CSS | 🔵 En cours | Mise en forme : couleurs, tailles, espacements, sélecteurs |
+| 2 | CSS | ✅ Terminé | Mise en forme : couleurs, tailles, espacements, sélecteurs, box model, bordures |
 | 3 | JavaScript | ⬜ À venir | Interactivité : boutons, événements, DOM |
 | 4 | Python | ⬜ À venir | Bases du langage, scripts, automatisation |
 | 5 | Rust | ⬜ À venir | Bases du langage, compilation, ownership |
@@ -176,7 +176,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Session 5 lancée (2026-10-12, reprise en soirée) — box model, bordures, border-radius. 4 exercices donnés à Mathias : il écrit le CSS lui-même dans ses blocs existants, sauvegarde, teste dans le navigateur, montre son code pour validation.
+**Où on s'arrête** : Session 5 terminée et validée (2026-10-12) — box model, bordures, border-radius. Module CSS terminé : 7 règles dans `style.css`, toutes écrites par Mathias. Prochaine session : JavaScript (module 3).
 
 ---
 
@@ -239,13 +239,19 @@ balise    { propriete: valeur; }
 - Couleurs conformes à la palette deutan (`progression/couleurs.md`)
 - Suite : Mathias écrit le code, sauvegarde, teste dans le navigateur, montre son CSS au prof pour validation. Prochaine session : JavaScript
 
+**Mise à jour 2026-10-12 — Session 5 terminée et validée (box model, bordures, border-radius)** :
+- Mathias a enrichi ses 4 blocs existants dans `style.css` : carte `#liste-langages` (padding 20px, max-width 400px, radius 12px, box-sizing border-box), pilules `li` (bordure bleue, radius 8px, margin-bottom 10px), bandeau `h1` (border-bottom, padding-bottom, max-width 400px), favori `.favori` (bordure orange, fond blanc)
+- 4/4 exercices validés par le prof : syntaxe correcte, valeurs conformes à la palette deutan, blocs existants enrichis sans doublon
+- Question de Mathias sur les nouveaux snippets (`c-border`, `c-border-orange`, `c-border-bottom`, `c-box-sizing`) : concept réexpliqué (raccourci VS Code : préfixe + Tab, rien d'automatique)
+- Module 2 (CSS) terminé. Prochaine session : JavaScript (module 3) — variables, DOM, événements, premier bouton interactif
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé (terminée le 2026-10-12)
 - Sélecteurs par classe (`.ma-classe`)
 - Sélecteurs par id (`#mon-id`)
 
-### Session 5 — CSS avancé, suite (en cours)
+### Session 5 — CSS avancé, suite (terminée le 2026-10-12)
 - Modèle de boîte (box model)
 - Bordures, border-radius
 - Largeur, marges, box-sizing

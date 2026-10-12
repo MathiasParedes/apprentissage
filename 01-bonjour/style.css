@@ -41,9 +41,15 @@ body {
 }
 h1 {
   color: #0033cc;
+  border-bottom: 3px solid #0033cc;
+  padding-bottom: 10px;
+  max-width: 400px;
 }
 li {
   padding: 10px;
+  border: 2px solid #0033cc;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 p {
   font-size: 20px;
@@ -53,7 +59,13 @@ p {
 }
 #liste-langages {
   background-color: #ffffff;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 12px;
+  box-sizing: border-box;
 }
 .favori {
   color: #ff6600;
+  border: 2px solid #ff6600;
+  background-color: #ffffff;
 }
