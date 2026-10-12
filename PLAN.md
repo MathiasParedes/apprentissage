@@ -5,23 +5,39 @@ Il grandit en même temps que moi. Chaque langage que j'apprends le rend plus ca
 
 ## Méthode (à chaque session)
 
-1. Mini-leçon (5 min, dans le chat)
-2. Exercice dans un dossier `NN-nom/`
+1. Mini-leçon (5 min, dans le chat) — TOUJOURS expliquer le concept avant l'exercice, surtout pour un langage jamais vu
+2. Exercice dans un dossier `NN-nom/` (jamais dans `.vscode/`, c'est le dossier de config VS Code)
 3. Mathias code lui-même — l'agent corrige mais n'écrit pas à sa place
 4. Leçon suivante seulement quand l'exercice est validé
+5. Consignes explicites : dire si un dossier/fichier existe déjà ou doit être créé
 
-## Progression
+## Progression réelle (mise à jour 2026-10-12)
 
-> Trame révisée le 2026-10-12 — la trame réellement suivie est HTML → CSS → JavaScript → Python → Rust. Le détail session par session est dans `01-bonjour/progression/suivi.md`.
+- [x] HTML : bases (session 1-2 → `01-bonjour/`)
+- [x] CSS : sélecteurs, couleurs, padding (session 3)
+- [x] CSS : classes et id (session 4)
+- [x] CSS : box model, bordures, border-radius (session 5) — **module CSS terminé**
+- [x] JavaScript : débutant, DOM, addEventListener (session 6) — **module JS terminé**
+- [ ] Python : variables, print, if/else (session 7 — **en cours**, exos 1-3 validés, **exo 4 à faire**)
+- [ ] Python : boucles for (en cours — voir exo 4)
+- [ ] Python : fonctions (prochain)
+- [ ] Python : projet — outils flipping (calcul de marge)
+- [ ] Rust : installer, premier programme
+- [ ] Rust : réécrire le quiz (projet final !)
+- [ ] Go : plus tard, priorité la plus basse
 
-- [x] Module 1 — HTML : bases (→ `01-bonjour/index.html`)
-- [x] Module 2 — CSS : couleurs, sélecteurs (balise, classe, id), box model, bordures (→ `01-bonjour/style.css`)
-- [x] Module 3 — JavaScript : variables, DOM, événements, bouton compteur (→ `01-bonjour/script.js`)
-- [ ] Module 4 — Python : bases (en cours → `03-python/`) — session 7 terminée : 4/4 exercices validés dans `bonjour.py` ; session 8 à venir : fonctions (`def`), listes, dictionnaires, `input`, premier script
-- [ ] Module 5 — Rust : installer, premier programme
+## Environnement
+
+- macOS, Safari uniquement, console fr-FR
+- VS Code : Prettier (single quotes), Emmet désactivé, bips désactivés
+- Python 3.15 installé via Homebrew + extension VS Code
+- Git en français, repo GitHub `MathiasParedes/apprentissage`
 
 ## Règles
 
-- Mathias écrit tout lui-même, copier-coller interdit (sauf pour l'agent qui montre un exemple)
+- Mathias écrit tout lui-même, copier-coller interdit
 - Un exercice raté = une explication de plus, jamais de honte
-- Cmd+S sauvegarde, le navigateur se met à jour tout seul
+- Réponses courtes (3 lignes max par défaut), pas de pavés
+- Un exercice jamais vu = mini-leçon AVANT l'exercice, jamais l'inverse
+- Dire si un dossier/fichier existe déjà ou doit être créé
+- Si une question ferait mouliner > quelques secondes : dire ce qu'on cherche avant de chercher

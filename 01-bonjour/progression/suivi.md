@@ -17,6 +17,15 @@
 
 ---
 
+## Niveau de Mathias — trous à combler (noté le 2026-10-12)
+
+Mathias n'a que des bases. Trous identifiés :
+- **CSS** : flexbox/grid et responsive
+- **JavaScript** : conditions, boucles, fonctions
+- **Python** : presque tout (débutant — session 7 terminée, session 8 à venir)
+
+---
+
 ## Trame de formation complète
 
 | Module | Langage | Statut | Objectif |
