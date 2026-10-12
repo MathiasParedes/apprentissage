@@ -176,7 +176,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Session 6 en cours (2026-10-12) — JavaScript débutant. `script.js` reçu : exercices 2-3 validés, exercice 4 avec 3 fautes de casse à corriger (`getElementbyId`, `getElementbyID`, `addEventlistener`), exercice 1 (`console.log`) manquant. Mathias corrige, teste, montre son code.
+**Où on s'arrête** : Session 6 en cours (2026-10-12) — JavaScript débutant. `script.js` v2 reçue : `getElementById` corrigés, simples quotes OK ; reste 2 problèmes sur la ligne du clic — `addEventlistener` (casse) et `function ('compteur')` (paramètre invalide = erreur de syntaxe qui bloque tout le fichier) ; `console.log` (exercice 1) toujours manquant. Mathias corrige, teste, montre son code.
 
 ---
 
@@ -265,6 +265,14 @@ balise    { propriete: valeur; }
 - `script.js` reçu (12 lignes) : exercices 2 (h1 → « Salut ! ») et 3 (.intro → `#ff6600`) corrects ; exercice 4 : 3 fautes de casse — `getElementbyId`, `getElementbyID`, `addEventlistener` (correct : `getElementById`, `getElementById`, `addEventListener`) ; exercice 1 (`console.log`) manquant
 - Règle enseignée : JavaScript est sensible à la casse (camelCase) — l'erreur console « ... is not a function » indique la ligne en cause ; les snippets `js-getid` / `js-click` écrivent les noms correctement
 - Suite : Mathias corrige les 3 lignes, ajoute `console.log`, resauvegarde (Prettier repasse en simple quote), teste, montre son code → validation
+
+**Mise à jour 2026-10-12 — Session 6, 2e envoi de `script.js` (Mathias demande de l'aide, ne comprend pas)** :
+- Corrigé par Mathias : `getElementById` sur les 2 lignes, simples quotes (le réglage Prettier `singleQuote` fonctionne)
+- Restent 2 problèmes, tous deux ligne 10 : `addEventlistener` (casse → `addEventListener`) et `function ('compteur')` (paramètre invalide — un paramètre est un nom, pas un texte entre quotes ; correct : `function ()`)
+- `function ('compteur')` est une **erreur de syntaxe** : le navigateur refuse de charger le fichier entier — rien ne marche, même les exercices 2-3 (c'est ce qui déroute Mathias)
+- Exercice 1 (`console.log`) toujours manquant
+- Règle enseignée : erreur de syntaxe = le fichier ne se charge pas du tout ; erreur d'exécution (« ... is not a function ») = le fichier tourne mais plante à la ligne concernée
+- Suite : Mathias applique les changements (ligne 10 + ajout `console.log` en haut), teste, montre son code → validation
 
 ## Prochaines sessions (à venir)
 
