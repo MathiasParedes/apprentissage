@@ -23,7 +23,7 @@
 | 1 | HTML | ✅ Terminé | Structure de base, titres, paragraphes, listes |
 | 2 | CSS | ✅ Terminé | Mise en forme : couleurs, tailles, espacements, sélecteurs, box model, bordures |
 | 3 | JavaScript | ✅ Terminé | Interactivité : boutons, événements, DOM |
-| 4 | Python | ⬜ À venir | Bases du langage, scripts, automatisation |
+| 4 | Python | 🔵 En cours | Bases du langage, scripts, automatisation |
 | 5 | Rust | ⬜ À venir | Bases du langage, compilation, ownership |
 
 ---
@@ -176,7 +176,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Session 6 terminée et validée (2026-10-12) — JavaScript débutant. Module JS terminé : première page interactive (console.log, DOM, compteur cliquable). Prochaine session : Python (module 4).
+**Où on s'arrête** : Session 7 lancée (2026-10-12) — Python débutant. Mathias ouvre `03-python/` dans VS Code, crée `bonjour.py`, écrit print + variables + if/else + boucle for, lance avec `python3` dans le terminal. Il montre son code pour validation.
 
 ---
 
@@ -288,6 +288,17 @@ balise    { propriete: valeur; }
 - Leçons retenues : JS sensible à la casse (camelCase) ; erreur de syntaxe = fichier bloqué entier, erreur d'exécution = plante à la ligne ; lire l'erreur rouge dans la console (Safari, macOS fr-FR → console en français) ; Prettier réglé en simple quote
 - Module 3 (JavaScript) terminé. Prochaine session : Python (module 4) — installation, syntaxe de base, variables, conditions, boucles, premier script
 
+**Mise à jour 2026-10-12 — Session 7 lancée (Python débutant)** :
+- Thème : Python dans le terminal — `print`, variables (str/int/bool), `if`/`else`, boucle `for` + liste, `input` (bonus)
+- Config prof : Python 3.15.0 installé via Homebrew (`brew install python` → `/opt/homebrew/bin/python3`), extension VS Code `ms-python.python` + Pylance + debugpy installées, 8 snippets Python créés (`03-python/.vscode/python.code-snippets`, JSON validé) — `py-print`, `py-var`, `py-if`, `py-ifelse`, `py-for`, `py-def`, `py-input`, `py-liste`
+- À faire par Mathias : ouvrir le dossier `03-python/` dans VS Code (Fichier → Ouvrir le dossier), créer `bonjour.py`, écrire les 4 exercices, lancer avec `python3 bonjour.py` dans le terminal (Terminal → Nouveau terminal)
+  1. `print('Bonjour depuis Python !')`
+  2. Variables : `ville = 'Marseille'`, `annee = 2026`, `actif = True` + print
+  3. `if compteur > 0:` / `else:` — tester avec 3 puis 0 (deux-points + indentation 4 espaces)
+  4. `for langage in ['html', 'css', 'javascript', 'python', 'rust']:` + print — même liste que la page web
+- Note : le dossier `02-listes-liens-images/` (module 2 du PLAN.md) est vide — la trame suivie est HTML→CSS→JS→Python→Rust ; à décider plus tard : le remplir (liens/images) ou le supprimer
+- Suite : Mathias montre `bonjour.py` → validation. Session 8 : fonctions, listes, dictionnaires, premier script
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé (terminée le 2026-10-12)
@@ -305,7 +316,7 @@ balise    { propriete: valeur; }
 - Événements (click, input)
 - Premier projet : bouton interactif
 
-### Session 7-8 — Python
+### Session 7-8 — Python (session 7 en cours)
 - Installation, syntaxe de base
 - Variables, conditions, boucles
 - Fonctions, listes, dictionnaires

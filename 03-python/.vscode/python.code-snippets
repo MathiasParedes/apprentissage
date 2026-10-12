@@ -1,0 +1,56 @@
+{
+    "Py — Print": {
+        "prefix": "py-print",
+        "body": "print('${1:message}')",
+        "description": "Affiche un message dans le terminal"
+    },
+    "Py — Variable": {
+        "prefix": "py-var",
+        "body": "${1:nom} = ${2:valeur}",
+        "description": "Déclare une variable (pas de let/const en Python)"
+    },
+    "Py — Condition if": {
+        "prefix": "py-if",
+        "body": [
+            "if ${1:condition}:",
+            "\t${2:print('ok')}"
+        ],
+        "description": "Condition (deux-points + indentation 4 espaces)"
+    },
+    "Py — Condition if/else": {
+        "prefix": "py-ifelse",
+        "body": [
+            "if ${1:condition}:",
+            "\t${2:print('oui')}",
+            "else:",
+            "\t${3:print('non')}"
+        ],
+        "description": "Condition avec branche else"
+    },
+    "Py — Boucle for": {
+        "prefix": "py-for",
+        "body": [
+            "for ${1:element} in ${2:liste}:",
+            "\tprint(${1:element})"
+        ],
+        "description": "Boucle for sur une liste"
+    },
+    "Py — Fonction": {
+        "prefix": "py-def",
+        "body": [
+            "def ${1:ma_fonction}():",
+            "\t${2:print('ok')}"
+        ],
+        "description": "Définit une fonction (def + deux-points)"
+    },
+    "Py — Input utilisateur": {
+        "prefix": "py-input",
+        "body": "${1:nom} = input('${2:Ta question ? }')",
+        "description": "Demande du texte à l'utilisateur dans le terminal"
+    },
+    "Py — Liste": {
+        "prefix": "py-liste",
+        "body": "${1:ma_liste} = ['${2:html}', '${3:css}']",
+        "description": "Crée une liste (entre crochets)"
+    }
+}
