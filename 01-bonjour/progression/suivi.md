@@ -217,6 +217,10 @@ balise    { propriete: valeur; }
 - Le commentaire d'aide en haut de `style.css` a été supprimé par Mathias : le fichier ne contient plus que son code
 - Prochaine session : CSS avancé suite (box model, bordures, border-radius), puis JavaScript
 
+**Mise à jour 2026-10-12 — Commentaire d'aide restauré** :
+- Mathias a demandé la restauration du commentaire pense-bête en haut de `style.css` (palette + snippets) — récupéré dans l'historique git
+- Ce n'est pas une mauvaise pratique : les commentaires CSS sont ignorés par le navigateur, garder des notes dans son fichier est utile en apprentissage
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé
