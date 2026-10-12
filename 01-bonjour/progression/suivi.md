@@ -9,8 +9,10 @@
 - Tu reprends exactement là la prochaine fois
 
 ## Comment me retrouver
-- Reviens sur cette conversation (Mistral Vibe)
-- Dis "on continue" → je sais où on en est grâce à ce fichier
+- Ouvre VS Code → clique sur l'icône **Mistral Vibe** dans la barre latérale (panneau de chat à gauche)
+- La conversation reprend là où tu l'as laissée : elle est sauvegardée sur ton disque (`~/.vibe/logs/session/`)
+- Dis « on continue » → je sais où on en est grâce à ce fichier
+- Filet de sécurité : même dans une conversation toute neuve, « on continue » + ce fichier = on reprend exactement ici
 
 ---
 
