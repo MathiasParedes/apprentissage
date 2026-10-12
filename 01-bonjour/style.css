@@ -69,3 +69,8 @@ p {
   border: 2px solid #ff6600;
   background-color: #ffffff;
 }
+#bouton-compteur {
+  background-color: #0033cc;
+  color: white;
+  border-radius: 12px;
+}

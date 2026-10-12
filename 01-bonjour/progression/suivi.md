@@ -176,7 +176,7 @@ balise    { propriete: valeur; }
 2. Ouvre `index.html` dans ton navigateur (Live Server : clic droit → "Open with Live Server")
 3. Copie-colle ton code ici → je te corrige
 
-**Où on s'arrête** : Session 6 lancée (2026-10-12) — JavaScript débutant. Mathias crée `script.js`, le branche dans `index.html` (avant `</body>`), écrit console.log + DOM + un compteur cliquable. Il montre son code pour validation.
+**Où on s'arrête** : Session 6 en cours (2026-10-12) — JavaScript débutant. `script.js` reçu : exercices 2-3 validés, exercice 4 avec 3 fautes de casse à corriger (`getElementbyId`, `getElementbyID`, `addEventlistener`), exercice 1 (`console.log`) manquant. Mathias corrige, teste, montre son code.
 
 ---
 
@@ -256,6 +256,15 @@ balise    { propriete: valeur; }
   4. Exercice 3 : passer `.intro` en orange `#ff6600` via `style.color`
   5. Exercice 4 : compteur cliquable — ajouter `<button id="bouton-compteur">` + `<p id="compteur">` dans le HTML, `addEventListener('click', ...)` dans le JS, `let compte = 0`
 - Suite : Mathias montre `script.js` et les lignes HTML ajoutées → validation. Puis sessions 7-8 : Python
+
+**Mise à jour 2026-10-12 — Session 6 en cours (JavaScript) — retours de Mathias** :
+- Bug corrigé par Mathias : balise `<script>` déplacée du `<head>` vers avant `</body>` dans `index.html` (le script tournait avant l'existence du DOM)
+- Bouton et compteur ajoutés dans `index.html` : `<button id="bouton-compteur">` + `<p id="compteur">0</p>` — ids conformes au JS
+- Clavier Logitech Craft : pas de touche Option ; F12 a une double fonction (son) — utiliser Fn+F12, ou clic droit → « Inspecter » → Console ; Cmd+Opt+I devient Cmd+Alt+I
+- Config prof : Prettier réglé sur simple quote (`"prettier.singleQuote": true` dans `.vscode/settings.json`, JSON validé) — préférence Mathias ; par défaut Prettier met des double quotes en JS
+- `script.js` reçu (12 lignes) : exercices 2 (h1 → « Salut ! ») et 3 (.intro → `#ff6600`) corrects ; exercice 4 : 3 fautes de casse — `getElementbyId`, `getElementbyID`, `addEventlistener` (correct : `getElementById`, `getElementById`, `addEventListener`) ; exercice 1 (`console.log`) manquant
+- Règle enseignée : JavaScript est sensible à la casse (camelCase) — l'erreur console « ... is not a function » indique la ligne en cause ; les snippets `js-getid` / `js-click` écrivent les noms correctement
+- Suite : Mathias corrige les 3 lignes, ajoute `console.log`, resauvegarde (Prettier repasse en simple quote), teste, montre son code → validation
 
 ## Prochaines sessions (à venir)
 
