@@ -328,6 +328,13 @@ balise    { propriete: valeur; }
 - `PLAN.md` mis à jour avec la vraie progression : HTML ✅, CSS ✅, JavaScript ✅, Python 🔵 (session 7 terminée, 4/4 exercices validés), Rust ⬜ à venir — l'ancienne liste de 16 modules est conservée dans l'historique git
 - Dossier `02-listes-liens-images/` toujours vide — à décider plus tard : le remplir (liens/images) ou le supprimer
 
+**Mise à jour 2026-10-12 — Session 8 lancée (Python, suite — fonctions)** :
+- Thème : fonctions `def` (définition, paramètres, `return`), puis dans la session : listes, dictionnaires, `input`, premier script
+- À faire par Mathias : créer `03-python/fonctions.py` (le fichier n'existe pas — à créer ; le dossier `03-python/` existe déjà ; jamais dans `.vscode/`), écrire 3 exercices (fonction sans paramètre, fonction avec paramètre, fonction avec `return`), lancer avec `python3 fonctions.py` dans le terminal
+- Mini-leçon faite avant l'exercice (concept jamais vu) ; snippet dispo : `py-def`
+- Trous à garder en tête : Mathias n'a que des bases en Python
+- Suite : Mathias montre `fonctions.py` → validation par le prof
+
 ## Prochaines sessions (à venir)
 
 ### Session 4 — CSS avancé (terminée le 2026-10-12)
